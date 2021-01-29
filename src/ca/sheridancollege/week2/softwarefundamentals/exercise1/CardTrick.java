@@ -46,7 +46,8 @@ public class CardTrick {
         userCard.setSuit(Card.SUITS[userCardSuit]);
         userCard.setValue(userCardValue);
         
-        System.out.println("Here is your card parameters.")
+        //shows Users card parameters
+        System.out.println("Here is your card parameters.");
         System.out.println(userCard.getValue());
         System.out.println(userCard.getSuit());
         
