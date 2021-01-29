@@ -46,6 +46,10 @@ public class CardTrick {
         userCard.setSuit(Card.SUITS[userCardSuit]);
         userCard.setValue(userCardValue);
         
+        System.out.println("Here is your card parameters.")
+        System.out.println(userCard.getValue());
+        System.out.println(userCard.getSuit());
+        
         // and search magicHand here
         for (int i=0; i<magicHand.length; i++){
             int mHandValue = magicHand[i].getValue();
